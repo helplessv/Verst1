@@ -1,0 +1,464 @@
+body {
+  margin: 0;
+  padding: 0 115px;
+  margin-bottom: 100px;
+}
+
+header {
+  margin-top:80px;
+  display: flex;
+  Width: 100%;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  .logo{
+    width: 200px;
+    height: 44px;
+  }
+  .menu{
+    display: flex;
+    justify-content: space-between;
+    width:320px;
+    height: 20px;
+  }
+  .menu a{
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .button{
+    display: flex;
+    width: 211px;
+    height: 60px;
+    background: #FF7143;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    color: White;
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+  }
+}
+
+
+div.mainblock{
+  margin-top: 90px;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  height: 644px;
+  div.mainblock-left{
+    display: flex;
+    flex-direction: column;
+  }
+  div.title1{
+    margin-top: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+  }
+  div.title2{
+    margin-top:40px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.4px;
+    text-align: left;
+  }
+  div.button{
+    margin-top: 50px;
+    width: 211px;
+    height: 60px;
+    background: #5454D4;
+    border-radius: 10px;
+    a{
+      display: flex;
+      width: 211px;
+      height: 60px;
+      align-items: center;
+      justify-content: center;
+      color: White;
+      font-family: "Montserrat", serif;
+      font-weight: 500;
+      font-style: normal;
+      text-decoration: none;
+    }
+  }
+}
+
+
+
+
+div.partners{
+  display: flex;
+  height: 62px;
+  justify-content: space-between;
+  align-items:center;
+}
+
+div.benefit1{
+  display: flex;
+  margin-top: 140px;
+  justify-content:space-between;
+  width:100%;
+  div.benefit1-right{
+    flex-direction: column;
+    display: flex;
+    margin-right: 8%;
+  }
+  div.image{
+    margin-left: 8%;
+  }
+  div.title1{
+    font-family: Quicksand;
+    font-size: 55px;
+    font-weight: 600;
+    color: #19191B;
+    margin-top: 91px;
+  }
+  div.title2{
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 400;
+    width: 473px;
+    margin-top: 25px;
+  }
+  div.title3{
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 15px;
+    a{
+      color: #5454D4;
+    }
+  }
+}
+
+div.benefit2{
+  margin-top:35px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  div.image{
+    margin-right: 8%;
+  }
+  div.benefit2-left{
+    flex-direction: column;
+    display: flex;
+    margin-left: 8%;
+  }
+  div.title1{
+    font-family: Quicksand;
+    font-size: 55px;
+    font-weight: 600;
+    color: #19191B;
+    margin-top: 120px;
+  }
+  div.title2{
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 400;
+    width: 507px;
+    margin-top: 25px;
+  }
+  div.title3{
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 15px;
+    a{
+      color: #5454D4;
+    }
+  }
+}
+
+div.opportunities{
+  display: flex;
+  justify-content: space-between;
+  div.block{
+    height: 264px;
+    width: 307px;
+    div.img{
+      display: flex;
+      justify-content: center;
+      width: 307px;
+      height: 130px;
+    }
+    div.title1{
+      text-align: center;
+      font-family: Quicksand;
+      font-size: 32px;
+      font-weight: 600;
+    }
+    div.title2{
+      font-family: Gilroy;
+      font-size: 22px;
+      font-weight: 400;
+      color: #696871;
+      text-align: center;
+    }
+  }
+}
+
+div.plan{
+  width:100%;
+  align-items: center;
+  margin-top: 127px;
+  div.title{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+  }
+  div.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 37px;
+    :hover{
+      cursor: pointer;
+    }
+    .b1_1{
+      width: 160px;
+      height: 55px;
+      top: 5px;
+      left: 8px;
+      gap: 0px;
+      border: 2px solid black;
+      border-radius: 10px 0px 0px 10px;
+      opacity: 0px;
+      background-color: #5454D4;
+      font-family: Gilroy;
+      font-size: 20px;
+      font-weight: 700;
+      text-align: center;
+      color: #FFFFFF;
+      transition: 0.3s;
+    }
+    .b1_2{
+      width: 160px;
+      height: 55px;
+      top: 5px;
+      left: 8px;
+      gap: 0px;
+      border-radius: 10px 0px 0px 10px;
+      border: none;
+      opacity: 0px;
+      font-family: Gilroy;font-size: 20px;
+      font-weight: 700;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .b2_1{
+      width: 160px;
+      height: 55px;
+      top: 5px;
+      left: 8px;
+      gap: 0px;
+      border-radius: 0px 10px 10px 0px;
+      border: none;
+      opacity: 0px;
+      font-family: Gilroy;font-size: 20px;
+      font-weight: 700;
+      text-align: center;
+      transition: 0.3s;
+    }
+    .b2_2{
+      width: 160px;
+      height: 55px;
+      top: 5px;
+      left: 8px;
+      gap: 0px;
+      border-radius: 0px 10px 10px 0px;
+      opacity: 0px;
+      background-color: #5454D4;
+      border: 2px solid black;
+      font-family: Gilroy;
+      font-size: 20px;
+      font-weight: 700;
+      text-align: center;
+      color: #FFFFFF;
+      transition: 0.3s;
+    }
+  }
+  div.plans{
+    padding: 0px 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:75px;
+    div.pl1{
+      width: 330px;
+      height: 441px;
+      div.Starter{
+        font-family: "Montserrat", sans-serif;
+        font-size: 22px;
+        font-weight: 500;
+        text-align: center;
+        color: #696871;
+        margin-top: 45px;
+      }
+      div.cost{
+        font-family: "Montserrat", sans-serif;
+        font-size: 50px;
+        font-weight: 600;
+        text-align: center;
+        color: #696871;
+        margin-top: 65px;
+      }
+      div.benefits{
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: left;
+        margin-left:35px;
+        color: #696871;
+        margin-top:60px;
+      }
+      div.button{
+        width: 285px;
+        height: 60px;
+        border: 1px solid #696871;
+        border-radius: 10px;
+        margin-left:22px;
+        margin-top:40px;
+        a{
+          display: flex;
+          width: 285px;
+          height: 60px;
+          align-items: center;
+          justify-content: center;
+          color: #5454D4;
+          font-family: "Montserrat", serif;
+          font-weight: 700;
+          text-decoration: none;
+        }
+      }
+    }
+    div.pl2{
+      width: 376px;
+      height: 473px;
+      border-radius: 10px;
+      background-color: #FF7143;
+      div.Premium{
+        font-family: "Montserrat", sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+        color: White;
+        margin-top: 60px;
+      }
+      div.cost{
+        font-family: "Montserrat", sans-serif;
+        font-size: 64px;
+        font-weight: 600;
+        text-align: center;
+        color: White;
+        margin-top: 74px;
+        justify-content: center;
+        transition: 0.4s;
+        span.ym{
+          font-family: "Montserrat", sans-serif;
+          font-size: 20px;
+          font-weight: 600;
+          text-align: center;
+        }
+
+
+      }
+      div.benefits{
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: left;
+        margin-left:35px;
+        color: White;
+        margin-top:37px;
+      }
+      div.button{
+        width: 305px;
+        height: 60px;
+        border-radius: 10px;
+        margin-left:35px;
+        background-color: #9F3919;
+        margin-top:36px;
+        a{
+          display: flex;
+          width: 305px;
+          height: 60px;
+          align-items: center;
+          justify-content: center;
+          color: White;
+          font-family: "Montserrat", serif;
+          font-weight: 700;
+          text-decoration: none;
+        }
+      }
+    }
+    div.pl3{
+      width: 330px;
+      height: 441px;
+      div.Starter{
+        font-family: "Montserrat", sans-serif;
+        font-size: 22px;
+        font-weight: 500;
+        text-align: center;
+        color: #696871;
+        margin-top: 45px;
+      }
+      div.cost{
+        font-family: "Montserrat", sans-serif;
+        font-size: 50px;
+        font-weight: 600;
+        text-align: center;
+        color: #696871;
+        margin-top: 65px;
+        span.ym{
+          font-family: "Montserrat", sans-serif;
+          font-size: 20px;
+          font-weight: 600;
+          text-align: center;
+        }
+
+      }
+      div.benefits{
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: left;
+        margin-left:35px;
+        color: #696871;
+        margin-top:60px;
+      }
+      div.button{
+        width: 285px;
+        height: 60px;
+        border: 1px solid #696871;
+        border-radius: 10px;
+        margin-left:22px;
+        margin-top:40px;
+        a{
+          display: flex;
+          width: 285px;
+          height: 60px;
+          align-items: center;
+          justify-content: center;
+          color: #5454D4;
+          font-family: "Montserrat", serif;
+          font-weight: 700;
+          text-decoration: none;
+        }
+      }
+    }
+
+    }
+  }
+}
