@@ -42,3 +42,5 @@ git clone https://github.com/helplessv/Verst1.git
 демонстрации навыков при собеседованиях
 
 создания шаблонов для личных проектов
+
+https://roadmap.sh/projects/pomodoro-timer
